@@ -1,0 +1,19 @@
+.form-text {
+  width: 50%;
+}
+textarea {
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  resize: none;
+  height: 150px;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  font-size: 1em;
+  border-radius: 3px;
+}
+textarea:focus {
+  outline: none;
+  border-color: #ff6600;
+  box-shadow: 0 0 10px #ff6600;
+}
